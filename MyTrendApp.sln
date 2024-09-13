@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTrendApp", "MyTrendApp\MyTrendApp.csproj", "{64617CBC-73CF-48C3-B03C-807552E6638D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64617CBC-73CF-48C3-B03C-807552E6638D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64617CBC-73CF-48C3-B03C-807552E6638D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64617CBC-73CF-48C3-B03C-807552E6638D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64617CBC-73CF-48C3-B03C-807552E6638D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95642F6E-E789-4748-AD9D-24D6A84BB3DC}
+	EndGlobalSection
+EndGlobal
