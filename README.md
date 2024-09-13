@@ -68,6 +68,7 @@ Cada endpoint suporta operações de **criação**, **leitura**, **atualização
 A documentação é gerada automaticamente usando Swagger/OpenAPI. Para acessar:
 
 1. **Inicie a aplicação** com o comando:
+   
    dotnet run
 
    
@@ -85,10 +86,12 @@ Navegue até o Diretório do Projeto
 
 cd MyTrend.NET
 Restaurar as Dependências
+
 dotnet restore
 
 
 Executar a Aplicação
+
 dotnet run
 
 
