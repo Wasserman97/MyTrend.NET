@@ -1,0 +1,109 @@
+@MyTrendApp_HostAddress = http://localhost:5254
+
+### Testar API de Produtos
+GET {{MyTrendApp_HostAddress}}/api/produtos
+Accept: application/json
+
+GET {{MyTrendApp_HostAddress}}/api/produtos/1
+Accept: application/json
+
+POST {{MyTrendApp_HostAddress}}/api/produtos
+Content-Type: application/json
+
+{
+  "nome": "Produto Exemplo",
+  "descricao": "Descrição do produto",
+  "preco": 99.99
+}
+
+PUT {{MyTrendApp_HostAddress}}/api/produtos/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nome": "Produto Atualizado",
+  "descricao": "Descrição atualizada",
+  "preco": 89.99
+}
+
+DELETE {{MyTrendApp_HostAddress}}/api/produtos/1
+
+### Testar API de Recomendações
+GET {{MyTrendApp_HostAddress}}/api/recomendacoes
+Accept: application/json
+
+GET {{MyTrendApp_HostAddress}}/api/recomendacoes/1
+Accept: application/json
+
+POST {{MyTrendApp_HostAddress}}/api/recomendacoes
+Content-Type: application/json
+
+{
+  "nome": "Recomendação Exemplo",
+  "descricao": "Descrição da recomendação"
+}
+
+PUT {{MyTrendApp_HostAddress}}/api/recomendacoes/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nome": "Recomendação Atualizada",
+  "descricao": "Descrição atualizada"
+}
+
+DELETE {{MyTrendApp_HostAddress}}/api/recomendacoes/1
+
+### Testar API de Roupas
+GET {{MyTrendApp_HostAddress}}/api/roupas
+Accept: application/json
+
+GET {{MyTrendApp_HostAddress}}/api/roupas/1
+Accept: application/json
+
+POST {{MyTrendApp_HostAddress}}/api/roupas
+Content-Type: application/json
+
+{
+  "nome": "Roupa Exemplo",
+  "tamanho": "M",
+  "cor": "Azul"
+}
+
+PUT {{MyTrendApp_HostAddress}}/api/roupas/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nome": "Roupa Atualizada",
+  "tamanho": "L",
+  "cor": "Preto"
+}
+
+DELETE {{MyTrendApp_HostAddress}}/api/roupas/1
+
+### Testar API de Usuários
+GET {{MyTrendApp_HostAddress}}/api/usuarios
+Accept: application/json
+
+GET {{MyTrendApp_HostAddress}}/api/usuarios/1
+Accept: application/json
+
+POST {{MyTrendApp_HostAddress}}/api/usuarios
+Content-Type: application/json
+
+{
+  "nome": "Usuário Exemplo",
+  "email": "usuario@exemplo.com"
+}
+
+PUT {{MyTrendApp_HostAddress}}/api/usuarios/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nome": "Usuário Atualizado",
+  "email": "usuario.atualizado@exemplo.com"
+}
+
+DELETE {{MyTrendApp_HostAddress}}/api/usuarios/1
